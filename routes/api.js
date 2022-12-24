@@ -10,8 +10,8 @@ router.get("/", (req, res) => {
 
 router.get("/students", StudentController.index);
 router.post("/students", StudentController.store);
-router.put("/students", StudentController.update);
-router.delete("/students", StudentController.destroy);
+// router.put("/students", StudentController.update);
+// router.delete("/students", StudentController.destroy);
 
 // export router
 module.exports = router;
